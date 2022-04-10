@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.screen_one {
+  width: 100%;
+  float: left;
+  display: block;
+  /* background: url("./bg1.png");
+  background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center; */
+}
+.hedaer__area {
+	width: 100%;
+	float: left;
+	display: block;
+	background: #000;
+	padding-top: 20px;
+}
+.hedaer__area img {
+	width: 40%;
+}
+.hedaer__area_bottom ul {
+	width: auto;
+	float: right;
+	margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.scrollmagic-pin-spacer span {
+  width: 60% !important;
+  margin: auto;
+}
+
+.hedaer__area_bottom {
+	width: 100%;
+	float: left;
+	display: block;
+	padding: 15px 0;
+	background: #151515;
+	margin-top: 10px;
+}
+
+.hedaer__area_bottom {
+  width: 100%;
+}
+
+.hedaer__area ul li {
+  float: left;
+  color: #fff;
+  list-style: none;
+  padding: 0 15px;
+}
+.screen_one .scrollmagic-pin-spacer {
+  width: 100%;
+  float: left;
+  display: block;
+  background: url("./bg1.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.screen_two .scrollmagic-pin-spacer {
+  background: #000;
+}
+
+/* .skeleton {
+  background-color: rgba(240, 240, 240, 1);
+  background-image: linear-gradient(
+    90deg,
+    rgba(240, 240, 240, 1),
+    rgba(240, 240, 240, 1),
+    rgba(255, 255, 255, 1),
+    rgba(240, 240, 240, 1),
+    rgba(240, 240, 240, 1)
+  );
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  display: inline-block;
+  line-height: 1;
+  width: 100%;
+  animation: skeleton 500ms ease-in-out infinite;
+
+  @keyframes skeleton {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: calc(200px + 100%) 0;
+    }
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
